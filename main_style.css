@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 
 /* Основной фрейм */
 .main_frame {
@@ -24,7 +24,8 @@
     left: 20px;
 }
 .topbar_title {
-    font: bold 15px "Arial";
+    font-family: "Montserrat";
+    font-size: 15px;
     color: blue;
 
     height: auto;
@@ -36,7 +37,8 @@
     left: 65px;
 }
 .topbar_under_title {
-    font: 12px "Arial";
+    font-family: "Montserrat";
+    font-size: 12px;
     color: gray;
 
     height: auto;
@@ -78,11 +80,12 @@
 }
 .button1 {
     background-color: #e12b62;
-    font: 17px "Arial";
+    font-family: "Montserrat";
+    font-size: 17px;
     color: white;
     text-align: center;
     line-height: 50px;
-    box-shadow: 0px 0px 10px #e12b62;
+    box-shadow: 0px 4px 15px #e12b62;
 
     height: 50;
     width: 200;
@@ -111,7 +114,7 @@
     width: 100%;
 
     position: absolute;
-    top: 450;
+    top: 550;
 }
 .frame2_aisle_select {
     height: 45px;
@@ -138,10 +141,140 @@
     bottom: 50;
 }
 .good_frame {
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 10px 15px #3145FF12;
 
     width: 22.5%;
     height: 90%;
 
     position: relative;
+}
+.good_frame_title {
+    position: absolute;
+    margin: 0;
+    height: 25;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 17px;
+}
+.good_frame_desc {
+    position: absolute;
+    margin: 0;
+    bottom: 130px;
+    height: 25;
+    width: 100%;
+    text-align: center;
+    color: gray;
+    font-family: 'Montserrat';
+    font-size: 13px;
+}
+.good_frame_price_before {
+    position: absolute;
+    margin: 0;
+    bottom: 60;
+    height: 25;
+    width: 100%;
+    text-align: center;
+    color: gray;
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+.good_frame_price_after {
+    position: absolute;
+    margin: 0;
+    left: 20;
+    bottom: 35;
+    height: 25;
+    width: 100%;
+    color: #3145ff;
+    font-family:
+    'Montserrat';
+    font-size: 18px;
+}
+.good_frame_img {
+    position: absolute;
+    top: 30px;
+    left: 12.5%;
+    width: 75%;
+}
+
+/* Новости */
+.frame3 {
+    height: 420;
+    width: 100%;
+
+    position: absolute;
+    top: 1200;
+}
+
+/* Каталог товаров */
+.frame4 {
+    height: 1000;
+    width: 100%;
+
+    position: absolute;
+    top: 1700;
+}
+
+/* Информация */
+.frame5 {
+    height: 250;
+    width: 100%;
+
+    position: absolute;
+    top: 2750;
+}
+
+/* Нижняя часть */
+.footer {
+    width: 1170;
+    height: 75;
+
+    position: absolute;
+}
+.footer_logo {
+    height: 35px;
+    width: 35px;
+
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.footer_title {
+    font-family: "Montserrat";
+    font-size: 15px;
+    color: white;
+
+    height: auto;
+    width: auto;
+
+    position: absolute;
+    margin: 0;
+    top: 20px;
+    left: 65px;
+}
+.footer_under_title {
+    font-family: "Montserrat";
+    font-size: 12px;
+    color: white;
+
+    height: auto;
+    width: auto;
+
+    position: absolute;
+    margin: 0;
+    top: 41px;
+    left: 65px;
+}
+.footer_aisle_select {
+    height: 75px;
+    width: 400px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    position: absolute;
+    left: 280;
 }
