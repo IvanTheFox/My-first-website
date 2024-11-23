@@ -1,5 +1,3 @@
-
-
 /* Основной фрейм */
 .main_frame {
     width: 1170px;
@@ -60,6 +58,9 @@
 
     position: absolute;
     left: 280;
+}
+.topbar_aisle_button:hover {
+    color: #3145ff;
 }
 .cart_logo {
     height: 25;
