@@ -12,6 +12,7 @@
     height: 75px;
 
     position: relative;
+    z-index: 100;
 }
 .topbar_logo {
     height: 35px;
@@ -69,6 +70,50 @@
     position: absolute;
     top: 26px;
     left: 1025px;
+}
+.open_cart_button {
+    border: 0px solid;
+
+    height: 40;
+    width: 150;
+
+    position: absolute;
+    top: 18;
+    left: 1015;
+
+    background-color: rgba(128, 128, 128, 0);
+}
+.open_cart_button:hover {
+    background-color: rgba(128, 128, 128, 0.15);
+}
+.cart_popup {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    position: absolute;
+    height: 100;
+    width: 150;
+    top: 100%;
+    left: 1015;
+
+    background-color: white;
+    box-shadow: 0px 0px 15px #3145FF48;
+
+    visibility: hidden;
+}
+.cart_popup_button {
+    height: 50%;
+    width: 100%;
+
+    border: 0px solid;
+    background-color: white;
+
+    text-align: left;
+    padding: 15px;
+}
+.cart_popup_button:hover {
+    background-color: lightgrey;
 }
 
 /* Описание сайта */

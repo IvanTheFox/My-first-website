@@ -25,9 +25,16 @@
                 <p style="position: absolute; margin-top: 30; left: 700; padding: 0; font-family: 'Montserrat'; font-size: 15px;"><b>8(908)45-32-7798</b></p>
 
                 <p style="position: absolute; margin-top: 25; left: 860; padding: 5; font-family: 'Montserrat'; font-size: 15px; color: #e12b62; border: 2px solid #e12b62;"><b>Заказать звонок</b></p>
-
+                
                 <img src="images/Корзина.svg" class="cart_logo">
-                <p style="position: absolute; margin-top: 30; left: 1060; padding: 0; font-family: 'Montserrat'; font-size: 15px;"><b>3 243 руб. ▼</b></p>
+                <b><p id="cart_text" style="position: absolute; margin-top: 30; left: 1060; padding: 0; font-family: 'Montserrat'; font-size: 15px;">3 243 руб. ▼</p></b>
+                <button class="open_cart_button" id="open_cart_button" onclick="open_cart()"></button>
+
+                <div class="cart_popup" id="cart_popup">
+                    <button class="cart_popup_button">► Профиль</button>
+                    <div style="background-color: lightgrey; height: 1; width: 100%; top: 50%; left: 0;"></div>
+                    <button class="cart_popup_button">► Корзина</button>
+                </div>
             </div>
 
             <div class="frame1">
